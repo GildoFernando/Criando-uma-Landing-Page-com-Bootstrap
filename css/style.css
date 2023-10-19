@@ -1,3 +1,51 @@
+@charset "UTF-8";
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
+/*2 - Fazendo estilização do body (background e cor do texto)*/
+body {
+  background-image: url(../../images/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+/*3 - Fazer a estilização do container*/
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 450px;
+  height: auto;
+}
+
+/*4 - Fazer modificação da logo*/
+.topLogo {
+  width: 185px;
+}
+
+/*5 - Estilizar os títulos dos componentes*/
+.paragraph {
+  margin: 8px 0px;
+}
+
+/* 6 - Fazer a estilização do botão por si só*/
+.btnSucess {
+  color: #ff0043;
+  border: 1px solid #ff0043;
+}
+
+/*7 - Fazer a estilização do hover o botão*/
+.btnSucess:hover {
+  background-color: #ff0043;
+  color: white;
+}
+
+/*8 - Fazer a estilização do footer*/
+.fotter {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
 
 /*# sourceMappingURL=style.css.map */
